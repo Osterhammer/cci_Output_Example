@@ -338,26 +338,40 @@ void VTC_handleSoftkeysAndButton_Q2(const struct ButtonActivation_S *pButtonData
 
 	}
 }
+	TON TON3;
+
+	RS RS3;
+
+
 
 void VTC_handleSoftkeysAndButton_Q3(const struct ButtonActivation_S *pButtonData) {
+
+	TON3.PT = 2000;
 
 	switch (pButtonData->keyActivationCode) {
 
 
-	case BUTTON_STATE_PRESSED:
 	case BUTTON_STATE_HELD:
-		gpio_set_level(GPIO_Q3, 1);
+	TON3(true);
+	RS3(TON3.Q, false);
+		break;
+
+
+	case BUTTON_STATE_PRESSED:
+	TON3(false);
+	RS3(false, true);
 		break;
 
 
 	case BUTTON_STATE_RELEASED:
 	case BUTTON_STATE_ABORTED:
-		gpio_set_level(GPIO_Q3, 0);
 		break;
 
 
 	}
+	gpio_set_level(GPIO_Q3, RS3.Q1);
 }
+
 
 void VTC_handleSoftkeysAndButton_Q4(const struct ButtonActivation_S *pButtonData) {
 
