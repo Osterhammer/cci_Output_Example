@@ -287,28 +287,31 @@ void AppVTClientDoProcess(const ISOVT_EVENT_DATA_T* psEvData)
 
 
 }
-RS RS1;
 TON TON1;
-TON1.PT = 2000;
+
+RS RS1;
 
 
 void VTC_handleSoftkeysAndButton_Q1(const struct ButtonActivation_S *pButtonData) {
 
+	TON1.PT = 2000;
+
 	switch (pButtonData->keyActivationCode) {
 
-	case BUTTON_STATE_PRESSED:
-	case BUTTON_STATE_HELD:
-	TON1(I1);
 
-	RS1(true, false);
+	case BUTTON_STATE_HELD:
+	TON1(true);
+	RS1(TON1.Q, false);
 		break;
 
-
-	case BUTTON_STATE_RELEASED:
-	case BUTTON_STATE_ABORTED:
+	case BUTTON_STATE_PRESSED:
+	TON1(false);
 	RS1(false, true);
 		break;
 
+	case BUTTON_STATE_RELEASED:
+	case BUTTON_STATE_ABORTED:
+		break;
 
 	}
 	gpio_set_level(GPIO_Q1, RS1.Q1);
