@@ -23,6 +23,7 @@
 #define OutputString_11001                11001
 #define Ellipse_lampe                     15000
 #define _80_20000                         20000
+#define Stufe_20001                       20001
 #define _64_20003                         20003
 #define _40_20004                         20004
 #define _32_20005                         20005
