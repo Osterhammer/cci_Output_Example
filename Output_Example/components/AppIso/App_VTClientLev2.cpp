@@ -272,6 +272,12 @@ void AppVTClientDoProcess(const ISOVT_EVENT_DATA_T* psEvData)
 	IsoVtcCmd_NumericValue(psEvData->u8Instance, ObjectPointer_Ausgefahren, Ellipse_lampe);
 	else
 	IsoVtcCmd_NumericValue(psEvData->u8Instance, ObjectPointer_Ausgefahren, ID_NULL);
+
+	if (I2)
+		IsoVtcCmd_NumericValue(psEvData->u8Instance, ObjectPointer_TasteEx, Ellipse_lampe);
+		else
+		IsoVtcCmd_NumericValue(psEvData->u8Instance, ObjectPointer_TasteEx, ID_NULL);
+
 	TON1(I3);
 	R_TRIG1(TON1.Q);
 	RS1(I1 or I2,R_TRIG1.Q);
