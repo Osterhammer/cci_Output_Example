@@ -51,7 +51,7 @@ const unsigned char ISO_OP_MEMORY_CLASS isoOP_MyProject1[] = {
 		XYREF(_80_20506, 0, 0),
 	ID(SoftKey_Q1), TYPEID_SOFTKEY, COLOR(77), 1, 2, 0, 
 		XYREF(CylinderOut_20501, 0, 0),
-		XYREF(Stufe_20001, 1, 0),
+		XYREF(Stufe_20001, 0, 0),
 	ID(SoftKey_Q2), TYPEID_SOFTKEY, COLOR(77), 1, 1, 0, 
 		XYREF(CylinderIn_20502, 0, 0),
 	ID(SoftKey_Q3), TYPEID_SOFTKEY, COLOR(63), 1, 1, 0, 
