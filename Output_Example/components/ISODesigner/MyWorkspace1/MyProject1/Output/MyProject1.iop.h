@@ -9,6 +9,7 @@
 #define WorkingSet_0                          0
 #define Macro_1                               1
 #define DataMask_Main                      1000
+#define DataMask_1001                      1001
 #define SoftKeyMask_Main                   4000
 #define SoftKey_5000                       5000
 #define SoftKey_Q1                         5001
