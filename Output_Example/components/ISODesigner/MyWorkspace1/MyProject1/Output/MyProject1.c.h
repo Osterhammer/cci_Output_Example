@@ -2,52 +2,61 @@
 // Do not change!
 
 #define WorkingSet_0_Offset                                     1
-#define DataMask_Main_Offset                                   21
-#define SoftKeyMask_Main_Offset                                53
-#define SoftKey_5000_Offset                                    83
-#define SoftKey_Q1_Offset                                      96
-#define SoftKey_Q2_Offset                                     109
-#define SoftKey_Q3_Offset                                     122
-#define SoftKey_Q4_Offset                                     135
-#define SoftKey_5005_Offset                                   148
-#define SoftKey_5006_Offset                                   161
-#define SoftKey_5007_Offset                                   174
-#define _80_20000_Offset                                      187
-#define _64_20003_Offset                                     1004
-#define _40_20004_Offset                                     1533
-#define _32_20005_Offset                                     1750
-#define CylinderOut_20501_Offset                             1895
-#define CylinderIn_20502_Offset                              2712
-#define _80_20506_Offset                                     3529
-#define _64_20507_Offset                                     4346
-#define _40_20508_Offset                                     4875
-#define _32_20509_Offset                                     5092
-#define CylinderOut64_20901_Offset                           5237
-#define CylinderIn64_20902_Offset                            5766
-#define _25_20903_Offset                                     6295
-#define _80_20910_Offset                                     6412
-#define _64_20911_Offset                                     7229
-#define _40_20912_Offset                                     7758
-#define _32_20913_Offset                                     7975
-#define ObjectPointer_27000_Offset                           8120
-#define ObjectPointer_NULL_Offset                            8125
-#define ObjectPointer_27002_Offset                           8130
-#define AuxFunction2_Q1_Offset                               8135
-#define AuxFunction2_Q2_Offset                               8147
-#define AuxFunction2_Q3_Offset                               8159
-#define AuxFunction2_Q4_Offset                               8171
-#define AuxFunction2_29005_Offset                            8183
-#define AuxFunction2_29006_Offset                            8195
-#define AuxFunction2_29007_Offset                            8207
-#define AuxFunction2_29008_Offset                            8219
-#define AuxFunction2_29009_Offset                            8231
+#define Macro_1_Offset                                         21
+#define DataMask_Main_Offset                                   34
+#define SoftKeyMask_Main_Offset                                96
+#define SoftKey_5000_Offset                                   126
+#define SoftKey_Q1_Offset                                     139
+#define SoftKey_Q2_Offset                                     152
+#define SoftKey_Q3_Offset                                     165
+#define SoftKey_Q4_Offset                                     178
+#define SoftKey_5005_Offset                                   191
+#define SoftKey_5006_Offset                                   204
+#define SoftKey_5007_Offset                                   217
+#define OutputString_11000_Offset                             230
+#define OutputString_11001_Offset                             255
+#define Ellipse_lampe_Offset                                  283
+#define _80_20000_Offset                                      298
+#define _64_20003_Offset                                     1115
+#define _40_20004_Offset                                     1644
+#define _32_20005_Offset                                     1861
+#define CylinderOut_20501_Offset                             2006
+#define CylinderIn_20502_Offset                              2823
+#define _80_20506_Offset                                     3640
+#define _64_20507_Offset                                     4457
+#define _40_20508_Offset                                     4986
+#define _32_20509_Offset                                     5203
+#define CylinderOut64_20901_Offset                           5348
+#define CylinderIn64_20902_Offset                            5877
+#define _25_20903_Offset                                     6406
+#define _80_20910_Offset                                     6523
+#define _64_20911_Offset                                     7340
+#define _40_20912_Offset                                     7869
+#define _32_20913_Offset                                     8086
+#define FontAttributes_23000_Offset                          8231
+#define LineAttributes_24000_Offset                          8239
+#define FillAttributes_25000_Offset                          8247
+#define ObjectPointer_27000_Offset                           8255
+#define ObjectPointer_NULL_Offset                            8260
+#define ObjectPointer_27002_Offset                           8265
+#define ObjectPointer_TasteEx_Offset                         8270
+#define ObjectPointer_Ausgefahren_Offset                     8275
+#define AuxFunction2_Q1_Offset                               8280
+#define AuxFunction2_Q2_Offset                               8292
+#define AuxFunction2_Q3_Offset                               8304
+#define AuxFunction2_Q4_Offset                               8316
+#define AuxFunction2_29005_Offset                            8328
+#define AuxFunction2_29006_Offset                            8340
+#define AuxFunction2_29007_Offset                            8352
+#define AuxFunction2_29008_Offset                            8364
+#define AuxFunction2_29009_Offset                            8376
 
 #define ISO_OP_MEMORY_CLASS
 
-#define ISO_OP_MyProject1_Size   8243
+#define ISO_OP_MyProject1_Size   8388
 extern const unsigned char ISO_OP_MEMORY_CLASS isoOP_MyProject1[];
 
-#define ISO_OP_MyProject1_ObjectNumber     40
+#define ISO_OP_MyProject1_ObjectNumber     49
 extern const unsigned long ISO_OP_MEMORY_CLASS isoOP_MyProject1_Offset[];
 extern const unsigned long ISO_OP_MEMORY_CLASS isoOP_MyProject1_Offset_Id[];
 #define ISO_OP_MyProject1_Scale_Offset      1
